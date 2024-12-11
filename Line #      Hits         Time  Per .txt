@@ -1,0 +1,11 @@
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+     2                                           def haversine(lat1, lon1, lat2, lon2):
+     3      1631     203609.0    124.8      1.2    MILES = 3959
+     4      1631    5667474.0   3474.8     32.9    lat1, lon1, lat2, lon2 = map(np.deg2rad, [lat1, lon1, lat2, lon2])
+     5      1631     393057.0    241.0      2.3    diat = lat2 - lat1
+     6      1631     295847.0    181.4      1.7    dion = lon2 - lon1
+     7      1631    6930752.0   4249.4     40.3    a = np.sin(diat/2)**2 + np.cos(lat1) + np.cos(lat2) * np.sin(dion/2)**2
+     8      1631    3138871.0   1924.5     18.2    c = 2 * np.arcsin(np.sqrt(a))
+     9      1631     387388.0    237.5      2.2    total_miles = MILES * c
+    10      1631     201944.0    123.8      1.2    return total_miles

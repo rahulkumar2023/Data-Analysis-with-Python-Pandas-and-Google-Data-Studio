@@ -28,12 +28,15 @@ This repository contains a collection of Jupyter Notebooks, datasets, reports, a
 
 - Exploratory Data Analysis:  
   - Methods for understanding data distributions, relationships, and trends.
-  
+
 - Statistical and Computational Workflows:  
   - Implementation of calculations, statistical models, and data processing pipelines.
 
 - Data Visualization:  
   - Generation of visual insights using tools and libraries like Matplotlib, Seaborn, and Google Data Studio.
+
+- Case Studies:  
+  - Includes detailed case studies on topics such as customer lifetime value, election forecasting, economic crisis analysis, and more. These case studies highlight practical applications of data analysis techniques in various domains.
 
 - Performance Evaluation:  
   - Detailed performance metrics and profiling for optimized workflows.
@@ -43,12 +46,12 @@ This repository contains a collection of Jupyter Notebooks, datasets, reports, a
 ## How to Use
 
 1. Clone the Repository:  
-   To get started, clone this repository to your local machine:
+   To get started, clone this repository to your local machine:  
    git clone https://github.com/your-username/your-repository.git  
    cd your-repository  
 
 2. Run Jupyter Notebooks:  
-   Launch Jupyter Notebook to explore and run the analysis:
+   Launch Jupyter Notebook to explore and run the analysis:  
    jupyter notebook  
 
 3. View Reports:  
